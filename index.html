@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+              /*reset*/
+      * {margin:0; box-sizing: border-box;}
+      a {text-decoration:none; color:#000;}
+
+      #product {
+        width: 1000px;
+        height: 800px;
+        margin: 0 auto;
+        /* background-color: gold; */
+      }
+      #product > h3 {
+        font-size: 20px;
+        color: green;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 10px;
+      }
+      #product > p {
+        font-size: 17px;
+        color: #000;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 30px;
+      }
+      #product > .box {
+        width: 200px;
+        height: 300px;
+        float: left;
+        box-shadow: 1px 1px 1px #ddd;
+        border-radius: 15px;
+        /* background-color: tomato; */
+        margin: 20px 25px;
+      }
+      #product > .box:hover {
+        border: 5px #ddd;
+        box-shadow: 4px 4px 4px #ddd;
+      }
+      #product > .box > a > img {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px;
+      }
+      #product > .box > h4 > a {font-size:15px;}
+      #product > .box > span > a {font-size:12px;}
+
+      #hit {
+        width: 1000px;
+        height: 850px;
+        margin: 0 auto;
+        /* background-color: skyblue */
+      }
+      #hit > h3 {
+        font-size: 20px;
+        color: green;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 10px;
+      }
+      #hit > p {
+        font-size: 17px;
+        color: #000;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: 30px;
+      }
+      #hit > .box {
+        width: 270px;
+        height: 250px;
+        float: left;
+        box-shadow: 1px 1px 1px #ddd;
+        border-radius: 15px;
+        /* background-color: tomato; */
+        margin: 20px 25px;
+      }
+      #hit > .box:hover {
+        border: 5px #ddd;
+        box-shadow: 4px 4px 4px #ddd;
+      }
+      #hit > .box > a > img {
+        width: 100%;
+        height: 200px;
+      }
+      #hit > .box > h4 > a {font-size:15px;}
+      #hit > .box > span > a {font-size:12px;}
+    </style>
+  </head>
+  <body>
+    <div id="product">
+      <h3>오늘의 상품</h3>
+      <p>새로운 상품입니다.</p>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/04/35/84/item/1000586843504_i1_1200.jpg"
+          alt="img1"
+        /></a>
+        <h4><a href="#">맛있는 딸기</a></h4>
+        <span><a href="#">10,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/40/70/61/item/0000006617040_i1_1200.jpg"
+          alt="img2"
+        /></a>
+        <h4><a href="#">맛없는 딸기</a></h4>
+        <span><a href="#">5,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/07/55/80/item/1000522805507_i1_1200.jpg"
+          alt="img3"
+        />
+        <h4><a href="#">가장 싼 딸기</a></h4>
+        <span><a href="#">1,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/78/05/50/item/1000630500578_i1_1200.jpg"
+          alt="img4"
+        /></a>
+        <h4><a href="#">가장 비싼 딸기</a></h4>
+        <span><a href="#">100,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/04/35/84/item/1000586843504_i1_1200.jpg"
+          alt="img1"
+        /></a>
+        <h4><a href="#">맛있는 딸기1</a></h4>
+        <span><a href="#">10,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/40/70/61/item/0000006617040_i1_1200.jpg"
+          alt="img2"
+        /></a>
+        <h4><a href="#">맛없는 딸기1</a></h4>
+        <span><a href="#">5,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/07/55/80/item/1000522805507_i1_1200.jpg"
+          alt="img3"
+        />
+        <h4><a href="#">가장 싼 딸기1</a></h4>
+        <span><a href="#">1,000원</a></span>
+      </div>
+      <div class="box">
+        <a href="#">
+        <img
+          src="https://sitem.ssgcdn.com/78/05/50/item/1000630500578_i1_1200.jpg"
+          alt="img4"
+        /></a>
+        <h4><a href="#">가장 비싼 딸기1</a></h4>
+        <span><a href="#">100,000원</a></span>
+      </div>
+    </div>
+
+
+
+    <div id="hit">
+        <h3>오늘의 HIT</h3>
+        <p>HIT 상품입니다.</p>
+        <div class="box">
+          <a href="#">
+          <img
+            src="https://sitem.ssgcdn.com/04/35/84/item/1000586843504_i1_1200.jpg"
+            alt="img1"
+          /></a>
+          <h4><a href="#">맛있는 딸기2</a></h4>
+          <span><a href="#">10,000원</a></span>
+        </div>
+        <div class="box">
+          <a href="#">
+          <img
+            src="https://sitem.ssgcdn.com/40/70/61/item/0000006617040_i1_1200.jpg"
+            alt="img2"
+          /></a>
+          <h4><a href="#">맛없는 딸기2</a></h4>
+          <span><a href="#">5,000원</a></span>
+        </div>
+        <div class="box">
+          <a href="#">
+          <img
+            src="https://sitem.ssgcdn.com/07/55/80/item/1000522805507_i1_1200.jpg"
+            alt="img3"
+          />
+          <h4><a href="#">가장 싼 딸기2</a></h4>
+          <span><a href="#">1,000원</a></span>
+        </div>
+        <div class="box">
+            <a href="#">
+            <img
+              src="https://sitem.ssgcdn.com/04/35/84/item/1000586843504_i1_1200.jpg"
+              alt="img1"
+            /></a>
+            <h4><a href="#">맛있는 딸기2</a></h4>
+            <span><a href="#">10,000원</a></span>
+          </div>
+          <div class="box">
+            <a href="#">
+            <img
+              src="https://sitem.ssgcdn.com/40/70/61/item/0000006617040_i1_1200.jpg"
+              alt="img2"
+            /></a>
+            <h4><a href="#">맛없는 딸기2</a></h4>
+            <span><a href="#">5,000원</a></span>
+          </div>
+          <div class="box">
+            <a href="#">
+            <img
+              src="https://sitem.ssgcdn.com/07/55/80/item/1000522805507_i1_1200.jpg"
+              alt="img3"
+            />
+            <h4><a href="#">가장 싼 딸기2</a></h4>
+            <span><a href="#">1,000원</a></span>
+          </div>
+    </div>
+  </body>
+</html>
